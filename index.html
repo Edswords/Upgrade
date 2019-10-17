@@ -15,28 +15,32 @@
     <title>Upgrade Digital</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+<body id="body" data-spy="scroll" data-target="#navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="img/logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
-                Upgrade</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                <img class="img-fluid" src="img/Logo Upgrade.png" href="#main" width="250"
+                    class="d-inline-block align-top" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
+            <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#body">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Equipo</a>
+                        <a class="nav-link"  href="#info">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                        <a class="nav-link"  href="#caracteristica">¿Por qué elegirnos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#place">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#contacto">Contactanos</a>
                     </li>
                 </ul>
             </div>
@@ -45,24 +49,69 @@
 
 
     <main id="main">
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-pause="false">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="10000">
+                <div class="carousel-item active" data-interval="5000">
                     <img src="img/banner.jpeg" class="d-block w-100" alt="...">
                 </div>
+                <div class="carousel-item" data-interval="5000">
+                    <img src="img/Art.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                    <img src="img/MCv33.png" class="d-block w-100" alt="...">
+                </div>
 
+                <div class="overlay carousel-caption">
+                    <div class="container container h-100">
+                        <div class="row align-items-center h-100 text-justify">
+                            <div class="col-md-6 offset-md-1 text-center text-md-left ">
+                                <h1>Proyectos digitales enfocados a resultados</h1>
+                                <p class="d-none d-md-block">Desarrollamos Estrategias efectivas que ayuda a
+                                    <br> nuestros clientes potenciar sus ventas</p>
+                                <a href="" target="_blank" class="btn btn-outline-light">
+                                    Conoce màs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-
-        </div>
     </main>
 
 
-
-    <section id="caracteristica" class="">
-        <div class="container">
+    <section id="info">
+        <div class="container py-5">
             <div class="row">
-                <div class="col mb-4 text-center text-uppercase">
-                    <h2>Caracteristica</h2>
+                <div class="col-12 py-5 text-center ">
+                    <h2>Nosotros</h2>
+                </div>
+                <div class="col-12 col-lg-6 text-justify align-self-center">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptas sunt, dolores quis
+                        laudantium vero tempore doloribus hic maiores alias dolorem accusantium numquam atque, amet
+                        incidunt consequuntur? Commodi, perferendis ratione.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 ">
+                    <img class="img-fluid" src="img/banner.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="caracteristica">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col py-5 mb-4 text-center text-uppercase">
+                    <h2>¿Por què elegirnos?</h2>
                 </div>
             </div>
             <div class="row">
@@ -75,7 +124,6 @@
                                 legible de una
                                 página
                                 cuando mire su diseño.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +135,6 @@
                             <p class="card-text">Es un hecho bien establecido que un lector se distraerá del contenido
                                 legible de una página cuando
                                 mire su diseño</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -99,20 +146,6 @@
                             <p class="card-text">Es un hecho bien establecido que un lector se distraerá del contenido
                                 legible de
                                 una página cuando mire su diseño..</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="img/1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Diseño Web</h5>
-                            <p class="card-text">Es un hecho bien establecido que un lector se distraerá del contenido
-                                legible de una
-                                página
-                                cuando mire su diseño.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -120,12 +153,128 @@
         </div>
     </section>
 
-    <footer>
+    <section id="place">
+        <div class="container-fluid py-5">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h2>Servicios</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-12 col-lg-6 p-0">
+                    <img class="img-fluid" src="img/Art.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-6 pl-2  px-5  text-center align-self-center ">
+                    <h3 class="py-2">Diseño Web</h3>
+                    <p class="text-justify">Realizamos páginas web a medida intuitivas, emotivas que te hagan vivir una
+                        experiencia
+                        memorable, webs de nivel mundial para negocios de todos los tamaños.
+                        <br>
+                        Creemos en la disciplina del diseño web aplicando diseño inteligente basado en personas
+                        utilizando tecnologías digitales esenciales para crear un sitio web exitoso que genere visitas
+                        frente a Google.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 pl-2  px-5 text-center align-self-center">
+                    <h3 class="py-2">Marketing Digital</h3>
+                    <p class="text-justify">
+                        Sabemos que el primer contacto de tu marca no es tu web sino Google.
+                        <br>
+                        En Staff Digital somos expertos en posicionamiento web y campañas digitales Sem. Sin más que
+                        hablar llámanos y descubre nuestros casos de éxito.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 p-0 ">
+                    <img class="img-fluid" src="img/Art.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTENOS-->
+
+    <section id="contacto" class="pt-5">
+        <div class="container-fluid">
+            <div class="con">
+                <img src="img/Art.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="overlay">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="colcol-md-10 offset-md-1 col-lg-8 offset-lg-2 text-uppercase text-center">
+                            <h2 class="mb-4">Contactanos</h2>
+                            <p class="text-justify">Agendemos una reunión y visítanos en la agencia para que te
+                                convenzas
+                                porque tantos clientes trabajan con nosotros.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 py-4 ">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-12 col-md-6">
+                                        <input type="text" class="form-control" placeholder="Nombre" required>
+                                        <div class="valid-feedback">
+                                            Correcto!!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Ingresa tu nombre.
+                                        </div>
+                                    </div>
+                                    <!--<div class="form-group col-12 col-md-6">
+                                    <input type="text" class="form-control" placeholder="Apellido">
+                                </div>-->
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-12 col-md-6">
+                                        <input type="text" class="form-control" placeholder="Correo" required>
+                                        <div class="valid-feedback">
+                                            Correcto!!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Ingresa tu correo.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-12 col-md-6">
+                                        <input type="text" class="form-control" placeholder="Telefono" required>
+                                        <div class="valid-feedback">
+                                            Correcto!!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Ingresa tu numero de celular.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <textarea name="text" class="form-control form-control-lg"
+                                            placeholder="Mensaje"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col">
+                                        <button type="submit" class="btn btn-success bg-green">Enviar mensaje</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <h4>Contactenos</h4>
                     <p><span class="icon-phone">+51 921874684</span></p>
-                    <p><span class="icon-ubicacion">Direccion</span></p>
+                    <p><span class="icon-ubicacion">Dirección</span></p>
                     <p><span class="icon-correo">UpgradeDigital@gmail.com</span></p>
                 </div>
                 <div class="col">
@@ -133,7 +282,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sequi amet nihil eligendi
                         accusantium ipsam distinctio earum, magni corrupti velit quo beatae quasi libero non cupiditate
                         necessitatibus esse commodi placeat.</p>
-                    <p>Siguenos</p>
+                    <p>Siguenos en Nuestras redes sociales</p>
                     <div class="social-icon">
                         <a href="#" class="icon-facebook"></a>
                         <a href="#" class="icon-twitter"></a>
@@ -154,6 +303,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>>
+    </script>
+    
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1500,
+	speedAsDuration: true
+        });
+    </script>
 </body>
 
 </html>

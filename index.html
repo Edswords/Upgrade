@@ -1,3 +1,5 @@
+<?php
+>
 <!doctype html>
 <html lang="en">
 
@@ -16,7 +18,7 @@
 </head>
 
 <body id="body" data-spy="scroll" data-target="#navbar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white   border-bottom shadow-sm  sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="img/Logo Upgrade.png" href="#main" width="250"
@@ -39,9 +41,10 @@
                     <li class="nav-item">
                         <a class="nav-link"  href="#place">Servicios</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="#contacto">Contactanos</a>
+                    <li class="nav-item px-2 ">      
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=51915988133"  type="button" class="btn btn-outline-success my-2 my-sm-0">WhatsApp</A>         
                     </li>
+                    
                 </ul>
             </div>
         </div>
@@ -55,10 +58,10 @@
                     <img src="img/banner.jpeg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-interval="5000">
-                    <img src="img/Art.jpg" class="d-block w-100" alt="...">
+                    <img src="img/fotografia.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-interval="5000">
-                    <img src="img/MCv33.png" class="d-block w-100" alt="...">
+                    <img src="img/codigo.jpg" class="d-block w-100" alt="...">
                 </div>
 
                 <div class="overlay carousel-caption">
@@ -92,26 +95,26 @@
                 <div class="col-12 py-5 text-center ">
                     <h2>Nosotros</h2>
                 </div>
-                <div class="col-12 col-lg-6 text-justify align-self-center">
+                <div class="col-12 col-lg-6 col-md-6 text-justify align-self-center">
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptas sunt, dolores quis
                         laudantium vero tempore doloribus hic maiores alias dolorem accusantium numquam atque, amet
                         incidunt consequuntur? Commodi, perferendis ratione.
                     </p>
                 </div>
-                <div class="col-12 col-lg-6 ">
-                    <img class="img-fluid" src="img/banner.jpeg" alt="">
+                <div class="col-12 col-lg-6 col-md-6 ">
+                    <img class="img-fluid" src="img/cafe.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section id="caracteristica">
-        <div class="container py-5">
+    <section id="caracteristica" class="">
+        <div class="container  py-5">
             <div class="row">
                 <div class="col py-5 mb-4 text-center text-uppercase">
-                    <h2>¿Por què elegirnos?</h2>
+                    <h2>¿Por qué elegirnos?</h2>
                 </div>
             </div>
             <div class="row">
@@ -120,7 +123,7 @@
                         <img src="img/1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Diseño Web</h5>
-                            <p class="card-text">Es un hecho bien establecido que un lector se distraerá del contenido
+                            <p class="card-text text-justify">Es un hecho bien establecido que un lector se distraerá del contenido
                                 legible de una
                                 página
                                 cuando mire su diseño.</p>
@@ -132,18 +135,18 @@
                         <img src="img/2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Facil de Usar</h5>
-                            <p class="card-text">Es un hecho bien establecido que un lector se distraerá del contenido
+                            <p class="card-text text-justify">Es un hecho bien establecido que un lector se distraerá del contenido
                                 legible de una página cuando
                                 mire su diseño</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="col-12 col-md-12 col-lg-4  mb-4">
                     <div class="card">
                         <img src="img/3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Soporte</h5>
-                            <p class="card-text">Es un hecho bien establecido que un lector se distraerá del contenido
+                            <p class="card-text text-justify">Es un hecho bien establecido que un lector se distraerá del contenido
                                 legible de
                                 una página cuando mire su diseño..</p>
                         </div>
@@ -154,17 +157,17 @@
     </section>
 
     <section id="place">
-        <div class="container-fluid py-5">
-            <div class="row">
+        <div class="container-fluid py-5 ">
+            <div class="row ">
                 <div class="col text-center py-5">
                     <h2>Servicios</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class=" col-12 col-lg-6 p-0">
-                    <img class="img-fluid" src="img/Art.jpg" alt="">
+            <div class="row ">
+                <div class=" col-12 col-lg-6 p-0 col-md-6">
+                    <img class="img-fluid" src="img/Maqueta.jpg" alt="">
                 </div>
-                <div class="col-12 col-lg-6 pl-2  px-5  text-center align-self-center ">
+                <div class="col-12 col-lg-6 pl-2 col-md-6 px-5  text-center align-self-center ">
                     <h3 class="py-2">Diseño Web</h3>
                     <p class="text-justify">Realizamos páginas web a medida intuitivas, emotivas que te hagan vivir una
                         experiencia
@@ -175,8 +178,9 @@
                         frente a Google.</p>
                 </div>
             </div>
+            <hr class="featurette-divider">
             <div class="row">
-                <div class="col-12 col-lg-6 pl-2  px-5 text-center align-self-center">
+                <div class="col-12 col-lg-6 pl-2 col-md-6  px-5 text-center align-self-center">
                     <h3 class="py-2">Marketing Digital</h3>
                     <p class="text-justify">
                         Sabemos que el primer contacto de tu marca no es tu web sino Google.
@@ -185,14 +189,14 @@
                         hablar llámanos y descubre nuestros casos de éxito.
                     </p>
                 </div>
-                <div class="col-12 col-lg-6 p-0 ">
-                    <img class="img-fluid" src="img/Art.jpg" alt="">
+                <div class="col-12 col-lg-6 p-0 col-md-6">
+                    <img class="img-fluid" src="img/marke.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <!--CONTACTENOS-->
+    <!--CONTACTENOS
 
     <section id="contacto" class="pt-5">
         <div class="container-fluid">
@@ -200,7 +204,7 @@
                 <img src="img/Art.jpg" class="d-block w-100" alt="">
             </div>
             <div class="overlay">
-                <div class="container py-5">
+                <div class="container py-5 ">
                     <div class="row">
                         <div class="colcol-md-10 offset-md-1 col-lg-8 offset-lg-2 text-uppercase text-center">
                             <h2 class="mb-4">Contactanos</h2>
@@ -209,11 +213,11 @@
                                 porque tantos clientes trabajan con nosotros.</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row ">
                         <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 py-4 ">
                             <form>
                                 <div class="form-row">
-                                    <div class="form-group col-12 col-md-6">
+                                    <div class="form-group col-12 col-md-6 ">
                                         <input type="text" class="form-control" placeholder="Nombre" required>
                                         <div class="valid-feedback">
                                             Correcto!!
@@ -222,11 +226,12 @@
                                             Ingresa tu nombre.
                                         </div>
                                     </div>
-                                    <!--<div class="form-group col-12 col-md-6">
+                                    <!--SOY UN COMENTARIO 
+                                        <div class="form-group col-12 col-md-6">
                                     <input type="text" class="form-control" placeholder="Apellido">
-                                </div>-->
                                 </div>
-                                <div class="form-row">
+                                </div>
+                                <div class="form-row ">
                                     <div class="form-group col-12 col-md-6">
                                         <input type="text" class="form-control" placeholder="Correo" required>
                                         <div class="valid-feedback">
@@ -237,9 +242,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-row">
+                                <div class="form-row ">
                                     <div class="form-group col-12 col-md-6">
-                                        <input type="text" class="form-control" placeholder="Telefono" required>
+                                        <input type="text" class="form-control " placeholder="Telefono" required>
                                         <div class="valid-feedback">
                                             Correcto!!
                                         </div>
@@ -249,7 +254,7 @@
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <div class="form-group col-6">
+                                    <div class="form-group col-12 col-md-6">
                                         <textarea name="text" class="form-control form-control-lg"
                                             placeholder="Mensaje"></textarea>
                                     </div>
@@ -265,9 +270,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!--Footer-->
+    <!--Footer
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -290,7 +295,74 @@
                 </div>
             </div>
         </div>
-    </footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="text-center">
+                    <p>© 2019 Upgrade Digital Software, Inc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <div class="bg-light">
+        <footer class="container pt-4 my-md-5 pt-md-5 border-top py-5">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                        viewBox="0 0 24 24" focusable="false">
+                        <title></title>
+                        <circle cx="12" cy="12" r="10" />
+                        <path
+                            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+                    </svg>
+                    <small class="d-block mb-3 text-muted"> @Eduardotalfonso</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Siguenos</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Facebook</a></li>
+                        <li><a class="text-muted" href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Encuentranos en:</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Ubicacion</a></li>
+                        <li><a class="text-muted" href="#">Jr. Antonio Raymondi Nro. 530 Dpto. 102</a></li>
+                        <li><a class="text-muted" href="#">Telefono</a></li>
+                        <li><a class="text-muted" href="#">921874684    </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Enlaces de Interés</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Términos y condiciones de uso</a></li>
+                        <li><a class="text-muted" href="#">Política de Cookies</a></li>
+                        <li><a class="text-muted" href="#">Política de Privacidad</a></li>
+                        <li><a class="text-muted" href="#">Gaming</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Libro de Reclamaciones</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Team</a></li>
+                        <li><a class="text-muted" href="#">Locations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <hr class="featurette-divider">
+
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2019 Upgrade Digital, SAC. Todos los derechos reservados &middot; <a href="#">Privacy</a> &middot; <a
+                    href="#">Terms</a></p>
+        </footer>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -303,7 +375,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     </script>
     
     <script>

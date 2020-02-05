@@ -1,5 +1,3 @@
-<?php
->
 <!doctype html>
 <html lang="en">
 
@@ -18,32 +16,38 @@
 </head>
 
 <body id="body" data-spy="scroll" data-target="#navbar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white   border-bottom shadow-sm  sticky-top">
-       <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white  navbar-togglable border-bottom shadow-sm  sticky-top">
+        <div class="container">
             <a class="navbar-brand" href="#">
-                <img class="img-fluid" src="img/Logo Upgrade.png" href="#main" width="250" alt="Logo del Sitio"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="navbar-brand-img" src="img/Logo Upgrade.png" href="#main" width="200" alt="Logo del Sitio"></a>
+            <!-- Toggler -->    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Collapse -->
             <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item mx-2">
-                        <a  class="nav-link"  href="#body"><strong>Inicio </strong> <span class="sr-only">(current)</span></a>
+                <!-- Toggler -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#body"><strong>Inicio </strong> <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#info"> <strong>Nosotros</strong></a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link"  href="#info">   <strong>Nosotros</strong></a>
+                        <a class="nav-link" href="#caracteristica"><strong>¿Por qué elegirnos?</strong></a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link"  href="#caracteristica"><strong>¿Por qué elegirnos?</strong></a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link"  href="#place"><strong>Servicios</strong></a>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#place"><strong>Servicios</strong></a>
                     </li>
                 </ul>
-                <form class="form-inline mx-2 my-2 my-lg-0">      
-                    <a class="btn btn-outline-success my-2 my-sm-0" target="_blank" href="https://api.whatsapp.com/send?phone=51915988133"  type="" >WhatsApp</A>          
-                </form>  
                 
+                    <a class="btn btn-outline-success mx-3" target="_blank"
+                        href="https://api.whatsapp.com/send?phone=51915988133" type="">WhatsApp</A>
+                
+
             </div>
         </div>
     </nav>
@@ -69,7 +73,8 @@
                                 <h1>Proyectos digitales enfocados a resultados</h1>
                                 <p class="d-none d-md-block">Desarrollamos Estrategias efectivas que ayuda a
                                     <br> nuestros clientes potenciar sus ventas</p>
-                                <a href="https://api.whatsapp.com/send?phone=51915988133" target="_blank" class="btn btn-outline-light">
+                                <a href="https://api.whatsapp.com/send?phone=51915988133" target="_blank"
+                                    class="btn btn-outline-light">
                                     Conoce màs</a>
                             </div>
                         </div>
@@ -108,6 +113,7 @@
     </section>
 
 
+
     <section id="caracteristica" class="">
         <div class="container  py-5">
             <div class="row">
@@ -121,7 +127,8 @@
                         <img src="img/11.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">SEO Performance</h5>
-                            <p class="card-text text-justify-center">Optimizamos tu sitio web para que aparezca en los primeros resultados de búsqueda.</p>
+                            <p class="card-text text-justify-center">Optimizamos tu sitio web para que aparezca en los
+                                primeros resultados de búsqueda.</p>
                         </div>
                     </div>
                 </div>
@@ -130,7 +137,9 @@
                         <img src="img/12.png" class="card-img-top display-1" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Diseño Responsive</h5>
-                            <p class="card-text text-justify-center">Diseñamos páginas web que se adaptan a cualquier resolución, ya sea un monitor, tablet o Smartphone, tu página web siempre se adaptará y conservará su diseño.</p>
+                            <p class="card-text text-justify-center">Diseñamos páginas web que se adaptan a cualquier
+                                resolución, ya sea un monitor, tablet o Smartphone, tu página web siempre se adaptará y
+                                conservará su diseño.</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +148,8 @@
                         <img src="img/13.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Medición Web</h5>
-                            <p class="card-text text-justify-center">Te contamos cómo los consumidores experimentan tu marca. Te brindamos datos y analíticas exactas de tu sitio web.</p>
+                            <p class="card-text text-justify-center">Te contamos cómo los consumidores experimentan tu
+                                marca. Te brindamos datos y analíticas exactas de tu sitio web.</p>
                         </div>
                     </div>
                 </div>
@@ -147,9 +157,10 @@
                     <div class="card">
                         <img src="img/14.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Página web
+                            <h5 class="card-title">
                                 Página Web Autoadministrable</h5>
-                            <p class="card-text text-justify-center">Gracias al sistema de gestión de contenido, usted podrá crear, editar y administrar los contenidos de su <br> página web</p>
+                            <p class="card-text text-justify-center">Gracias al sistema de gestión de contenido, usted
+                                podrá crear, editar y administrar los contenidos de su <br> página web</p>
                         </div>
                     </div>
                 </div>
@@ -165,7 +176,7 @@
                 </div>
             </div>
             <div class="row ">
-                <div class=" col-12 col-lg-5  col-md-5  col-sm-5 align-self-center  " >
+                <div class=" col-12 col-lg-5  col-md-5  col-sm-5 align-self-center  ">
                     <img class="img-fluid" src="img/Maqueta.jpg" alt="">
                 </div>
                 <div class="col-12 col-lg-7 pl-2 col-md-7 px-5 col-sm-7 text-center align-self-center ">
@@ -181,7 +192,7 @@
             </div>
             <hr class="featurette-divider">
             <div class="row">
-                <div class="col-12 col-lg-6 pl-2 col-md-6  px-5  text-center align-self-center">
+                <div class="col-12 col-lg-7 pl-2 col-md-7 col-sm-7 px-5  text-center align-self-center">
                     <h3 class="py-2">Marketing Digital</h3>
                     <p class="text-justify">
                         Sabemos que el primer contacto de tu marca no es tu web sino Google.
@@ -190,7 +201,7 @@
                         hablar llámanos y descubre nuestros casos de éxito.
                     </p>
                 </div>
-                <div class="col-12 col-lg-6 col-md-6 align-self-center">
+                <div class="col-12 col-lg-5 col-md-5 col-sm-5 align-self-center">
                     <img class="img-fluid" src="img/marke.jpg" alt="">
                 </div>
             </div>
@@ -305,9 +316,18 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </footer> -->
+        </div> -->
+    <div id="floating-btn" class="d-lg-none" >
+        <a href="https://api.whatsapp.com/send?phone=51915988133" target="_blank"  >
+            <img class="img-fluid" src="img/W.png">
+        </a>
+    </div>
 
+
+
+
+
+    <!--FOOTER -->
     <div class="bg-light">
         <footer class="container pt-4 my-md-5 pt-md-5 border-top py-5">
             <div class="row">
@@ -345,7 +365,7 @@
                         <li><a class="text-muted" href="#">Términos y condiciones de uso</a></li>
                         <li><a class="text-muted" href="#">Política de Cookies</a></li>
                         <li><a class="text-muted" href="#">Política de Privacidad</a></li>
-                        
+
                     </ul>
                 </div>
                 <div class="col-6 col-md">
@@ -362,10 +382,12 @@
 
         <footer class="container">
             <p class="float-right"><a href="#">Back</a></p>
-            <p>&copy; 2019 Upgrade Digital, SAC. Todos los derechos reservados &middot; <a href="#">Privacy</a> &middot; <a
-                    href="#">Terms</a></p>
+            <p>&copy; 2019 Upgrade Digital, SAC. Todos los derechos reservados &middot; <a href="#">Privacy</a> &middot;
+                <a href="#">Terms</a></p>
         </footer>
-</div>
+
+
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -380,7 +402,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     </script>
-    
+
     <script>
         var scroll = new SmoothScroll('a[href*="#"]', {
             speed: 1500,
